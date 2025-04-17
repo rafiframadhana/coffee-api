@@ -137,7 +137,7 @@ export const products = [
     id: 16,
     name: "Dalgona Coffee",
     src: "http://i.imgur.com/iAOFzh0.png",
-    contain: "Instant Coffee | Sugar | Hot Water | Milk",
+    contain: "Instant Coffee | Hot Water | Milk",
     price: 17000,
     description: "A trendy whipped coffee made by vigorously mixing instant coffee, sugar, and hot water into a creamy froth, then served over chilled or hot milk. Its sweet, foamy top and smooth base make it visually appealing and deliciously satisfying."
   }
