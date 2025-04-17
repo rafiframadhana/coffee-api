@@ -125,4 +125,21 @@ export const products = [
     description:
       "A bold and aromatic coffee brewed in a traditional cezve, made with finely ground beans, water, and optional sugar. This unfiltered coffee has a thick consistency and a strong, full-bodied taste, often enjoyed with a glass of water and sweets.",
   },
+  {
+    id: 15,
+    name: "Vienna Coffee",
+    src: "https://i.imgur.com/6JAcqhY.jpeg",
+    contain: "Espresso | Whipped Cream",
+    price: 22000,
+    description: "A luxurious coffee drink combining strong espresso with a generous topping of whipped cream. The creamy richness balances the bold coffee, offering a smooth and indulgent experience traditionally enjoyed in European coffee houses."
+  },
+  {
+    id: 16,
+    name: "Dalgona Coffee",
+    src: "http://i.imgur.com/iAOFzh0.png",
+    contain: "Instant Coffee | Sugar | Hot Water | Milk",
+    price: 17000,
+    description: "A trendy whipped coffee made by vigorously mixing instant coffee, sugar, and hot water into a creamy froth, then served over chilled or hot milk. Its sweet, foamy top and smooth base make it visually appealing and deliciously satisfying."
+  }
+  
 ];
