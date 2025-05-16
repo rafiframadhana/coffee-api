@@ -4,7 +4,7 @@
 This API provides access to a collection of coffee products, allowing clients to retrieve information about various coffee offerings.
 
 ## Base URL
-`https://coffee-api-production-8bb9.up.railway.app/`
+`https://coffeeshop-backend.up.railway.app/`
 
 ## Endpoints
 
