@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import coffeeRouter from "./routes/coffee.js"
+import coffeeRouter from "./routes/coffee.js";
 
 dotenv.config();
 
@@ -18,11 +18,12 @@ mongoose
 // Middlewares
 app.use(express.json());
 app.use(express.static("public"));
-app.use(cors({ origin: "*", methods: ["GET"] }));
+app.use(
+  cors({ origin: "*", methods: ["GET", "POST", "PUT", "DELETE", "PATCH"] })
+);
 
 // Routes
-app.use(coffeeRouter)
-
+app.use(coffeeRouter);
 
 // SERVER
 app.listen(PORT, () => {
