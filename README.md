@@ -3,8 +3,8 @@
 ## Overview
 This API provides access to a collection of coffee products, allowing clients to retrieve information about various coffee offerings.
 
-## Base URL
-`https://coffeeshop-backend.up.railway.app/`
+## Important
+Take the coffee data from data/product.js if you dont have your MongoDB database set up
 
 ## Endpoints
 
